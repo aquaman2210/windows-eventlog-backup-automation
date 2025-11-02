@@ -1,0 +1,7 @@
+{
+    "backup_folder": "backups",
+    "log_folder": "logs",
+    "keep_days": 6,
+    "events": ["Application","System"],
+    "output_format": "evtx"
+}

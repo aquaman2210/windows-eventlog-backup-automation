@@ -1,0 +1,6 @@
+2025-11-03 00:01:51,128 - INFO - Starting Event Log Backup......
+2025-11-03 00:01:51,727 - INFO - Export Application log to backups\eventlog_20251103_000151\Application.evtx
+2025-11-03 00:01:52,369 - INFO - Export System log to backups\eventlog_20251103_000151\System.evtx
+2025-11-03 00:01:55,048 - INFO - Compress backup to: backups\eventlog_20251103_000151.zip
+2025-11-03 00:01:55,049 - INFO - Backup Completed Successful.
+
