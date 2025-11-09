@@ -4,3 +4,9 @@
 2025-11-03 00:01:55,048 - INFO - Compress backup to: backups\eventlog_20251103_000151.zip
 2025-11-03 00:01:55,049 - INFO - Backup Completed Successful.
 
+2025-11-09 22:46:05,318 - INFO - HOST: ITSYSTEM01 \U0001f680 Starting Event Log Backup......
+2025-11-09 22:46:05,788 - INFO - Export Application log to backups\eventlog_20251109_224605\Application.evtx
+2025-11-09 22:46:06,249 - INFO - Export System log to backups\eventlog_20251109_224605\System.evtx
+2025-11-09 22:46:07,527 - INFO - Compress backup to: backups\eventlog_20251109_224605.zip
+2025-11-09 22:46:07,529 - INFO - [HOST: ITSYSTEM01] \u2705 Backup Completed Successful.
+

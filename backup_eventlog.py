@@ -6,8 +6,14 @@ import json
 import zipfile
 import logging
 
+#information
+HOSTNAME = os.environ.get("COMPUTERNAME","Unknown")
+
+CONFIG = "config.json"
+if not os.path.exists(CONFIG):
+    raise FileNotFoundError("CREATE FILE JSON FIRST!!")
 #READ CONFIG.JSON
-with open("config.json","r",encoding="utf-8") as f:
+with open(CONFIG,"r",encoding="utf-8") as f:
     config = json.load(f)
 
 #MAPPING JSON
@@ -64,11 +70,11 @@ def cleanup_old_backup():
 
 #main
 def main():
-    logging.info("Starting Event Log Backup......")
+    logging.info(f"HOST: {HOSTNAME} 🚀 Starting Event Log Backup......")
     folder = export_event_log()
     compress_backup(folder)
     cleanup_old_backup()
-    logging.info("Backup Completed Successful.\n")
+    logging.info(f"[HOST: {HOSTNAME}] ✅ Backup Completed Successful.\n")
 
 if __name__ == "__main__":
     main()
